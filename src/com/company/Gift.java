@@ -1,40 +1,50 @@
 package com.company;
 
 public class Gift {
-    private String gift;
-    private char gender;
-    private double price;
+    private String giftName;
+    private String gender;
+    private String price;
+    private String age;
 
     public Gift() {
     }
 
-    public Gift(String gift, char gender, double price) {
-        this.gift = gift;
+    public Gift(String giftName, String gender, String price, String age) {
+        this.giftName = giftName;
         this.gender = gender;
         this.price = price;
+        this.age = age;
     }
 
-    public String getGift() {
-        return gift;
+    public String getAge() {
+        return age;
     }
 
-    public void setGift(String gift) {
-        this.gift = gift;
+    public void setAge(String age) {
+        this.age = age;
     }
 
-    public char getGender() {
+    public String getGiftName() {
+        return giftName;
+    }
+
+    public void setGiftName(String giftName) {
+        this.giftName = giftName;
+    }
+
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
-    public double getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 }
