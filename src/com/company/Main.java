@@ -67,18 +67,18 @@ public class Main {
         String ageInput = keyboard.next().toLowerCase();
 
         String gender = "", price = "", age = "";
-        boolean isGift = false;
+        boolean noGift = true;
         for (Gift gift : gifts) {
             gender = gift.getGender();
             price = gift.getPrice();
             age = gift.getAge();
             if (genderInput.equalsIgnoreCase(gender) &&  priceInput.equalsIgnoreCase(price) && ageInput.equalsIgnoreCase(age)) {
                 System.out.println(gift.getGiftName() + " " + gender + " " + price + " " +age);
-                isGift = true;
+                noGift = false;
             }
         }
 
-        if(!isGift){
+        if(noGift){
             if(gender.equalsIgnoreCase("Male"))
              System.out.println("get him a gift certificate");
             else{
