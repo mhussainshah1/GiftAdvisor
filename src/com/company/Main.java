@@ -15,21 +15,22 @@ import java.util.Scanner;
  * Now, write a program that will select the perfect gift based on the table below. Feel free to modify the gift list
  * if you wish.
  * <p>
- * Gift	            Gender	Price
+ * <table>
+ * <tr>     Gift            Gender	Price </tr>
  * ------------------------------
- * Jewelry	        Female	High
- * Weekend Getaway	Female	High
- * Selfie Stick	    Female	Low
- * Wine Bottle	    Female	Low
- * Perfume	        Female	Medium
- * Sweater	        Female	Medium
- * Smart TV	        Male	High
- * Apple Watch	    Male	High
- * Books	        Male	Low
- * Shoes	        Male	Low
- * Guitar	        Male	Medium
- * Playstation	    Male	Medium
- *
+ * <tr>   Jewelry           Female	High </tr>
+ * <tr>   Weekend Getaway	Female	High </tr>
+ * <tr>   Selfie Stick	    Female	Low </tr>
+ * <tr>   Wine Bottle	    Female	Low </tr>
+ * <tr>   Perfume	        Female	Medium </tr>
+ * <tr>   Sweater	        Female	Medium </tr>
+ * <tr>   Smart TV	        Male	High </tr>
+ * <tr>   Apple Watch	    Male	High </tr>
+ * <tr>   Books	            Male	Low </tr>
+ * <tr>   Shoes	            Male	Low </tr>
+ * <tr>   Guitar	        Male	Medium </tr>
+ * <tr>   Playstation	    Male	Medium </tr>
+ *</table>
  *
  * <b>Bonus:</b> Add a column to the list for age and change your program to prompt for the age (adult, teen, child) of
  * the recipient. You'll need to add more gift ideas if this is the case. You should also handle the possibility that you
